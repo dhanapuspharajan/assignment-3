@@ -1,0 +1,55 @@
+.mix-reactangular
+{
+   padding-left: 50px;
+   
+}
+
+.player-container{
+   background-color: rgb(35, 49, 49);
+   padding: 20px;
+   border-radius: 20px;
+   text-align: center;
+}
+
+.gohome h5{
+   position: absolute;
+   left: 11vmax;
+   top: 30vmin;
+   color: aliceblue;
+}
+
+video:hover{
+   box-shadow: 0px 0px 70px black;
+   scale: 105%;
+}
+/* h5:hover{
+   cursor: pointer;
+   font-size:medium;
+   text-shadow: 0px 2px 10px greenyellow;
+} */
+
+.player-container i{
+   color:white;
+   position: absolute;
+   left: 12vmax;
+   top: 30vmin;
+}
+
+.player-container i:hover{
+   color:white;
+   position: absolute;
+   left: 12vmax;
+   top: 30vmin;
+   cursor: pointer;
+   text-shadow: 0px 0px 5px white;
+   font-size: 25px;
+   display: block;
+
+}
+
+video{
+   border-radius: 20px;
+   box-shadow: 0px 0px 50px black;
+   width: 50%;
+   height:50vmin;
+}
